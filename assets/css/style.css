@@ -144,3 +144,7 @@ body {
 .EspacoVertical{
   padding-bottom: 200px;
 }
+
+.navbar-nav .nav-item .nav-link.active {
+  border-bottom: 2px solid blue;
+}
