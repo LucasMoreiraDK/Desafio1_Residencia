@@ -80,6 +80,8 @@ body {
   .card:hover{
     transition: transform 1s ease;
     transform: scale(1.05);
+    position: relative;
+    z-index: 1;
 
   }
 
@@ -94,10 +96,51 @@ body {
   }
 
   .nav-item.active .nav-link {
-    /* Adicione seu estilo de destaque aqui */
     font-weight: bold;
-    /* Exemplo: cor de fundo diferente para o link ativo */
     background-color: yellow;
   }
   
+ .LinkContatos{
+  text-decoration: none;
+ }
+
+.gitlink:hover{
+  color: #6660C1;
+ }
+
+.instalink:hover{
+
+  color: #f5cf2380;
+}
+
+.linkedlink:hover{
+  color: #2B72A9;
+}
+
+
+
+
+.linksRedes{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-bottom: 100px;
+}
+
+.formularioEmail{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-bottom: 150px;
  
+}
+
+.apresentacaoMain{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.EspacoVertical{
+  padding-bottom: 200px;
+}
