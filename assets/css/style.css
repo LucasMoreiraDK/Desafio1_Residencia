@@ -50,13 +50,13 @@ body {
   }
   
   .image-text-container img {
-    width: 200px; /* Ajuste a largura conforme necessário */
-    height: auto; /* Ajuste a altura conforme necessário */
+    width: 200px;
+    height: auto; 
     border-radius: 50%;
   }
   
   .text-container {
-    margin-left: 20px; /* Ajuste a margem conforme necessário */
+     /* margin-left: 20px;*/
   }
   
   .textoAzul{
